@@ -8,6 +8,10 @@ grad provides feature for feed detection from html document.
 go get github.com/yukihir0/grad
 ```
 
+## Dependencies
+
+- [gopkg.in/xmlpath.v2](https://github.com/go-xmlpath/xmlpath/tree/v2)
+
 ## How to use
 
 ```
