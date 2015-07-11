@@ -1,4 +1,4 @@
-# grad [![Build Status](https://travis-ci.org/yukihir0/grad.svg?branch=master)](https://travis-ci.org/yukihir0/grad)
+# grad [![Build Status](https://travis-ci.org/yukihir0/grad.svg?branch=master)](https://travis-ci.org/yukihir0/grad) [![Coverage Status](https://coveralls.io/repos/yukihir0/grad/badge.svg?branch=master&service=github)](https://coveralls.io/github/yukihir0/grad?branch=master)
 
 grad provides feature for feed detection from html document.
 
