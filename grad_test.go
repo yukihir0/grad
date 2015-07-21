@@ -34,7 +34,7 @@ func TestDetectFeedWithOneRssFeed(t *testing.T) {
 		t.Errorf("got %v\n want %v", len(actual), len(expected))
 	}
 
-	for i, _ := range expected {
+	for i := range expected {
 		if actual[i] != expected[i] {
 			t.Errorf("got %v\n want %v", actual, expected)
 		}
@@ -50,7 +50,7 @@ func TestDetectFeedWithOneAtomFeed(t *testing.T) {
 		t.Errorf("got %v\n want %v", len(actual), len(expected))
 	}
 
-	for i, _ := range expected {
+	for i := range expected {
 		if actual[i] != expected[i] {
 			t.Errorf("got %v\n want %v", actual, expected)
 		}
@@ -66,7 +66,7 @@ func TestDetectFeedWithAtomFeed(t *testing.T) {
 		t.Errorf("got %v\n want %v", len(actual), len(expected))
 	}
 
-	for i, _ := range expected {
+	for i := range expected {
 		if actual[i] != expected[i] {
 			t.Errorf("got %v\n want %v", actual, expected)
 		}

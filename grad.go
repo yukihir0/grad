@@ -1,11 +1,13 @@
-// grad provides feature for feed detection from html document
+// Package grad : grad provides feature for feed detection from html document
 package grad
 
 import (
-	"gopkg.in/xmlpath.v2"
 	"io"
+
+	"gopkg.in/xmlpath.v2"
 )
 
+// DetectFeed from html
 func DetectFeed(body io.Reader) (feeds []string) {
 	html, err := xmlpath.ParseHTML(body)
 	if err != nil {
